@@ -1,4 +1,4 @@
-import mainImage from '../assets/main.jpg';
+import mainImage from '../assets/mainBlur.jpg';
 import logoImage from '../assets/logo.jpg';
 
 import '../styles/Home.css';

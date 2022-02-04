@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+  }
+  
+  .socialMedia svg {
+    color: #f6f0e2;
+    margin: 10px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .socialMedia svg:hover {
+      color: #c48a4b;
+      /*color: #f0d797;*/
+  }
+
+  
+  .footer p {
+    color: #f6f0e2;
+  }
