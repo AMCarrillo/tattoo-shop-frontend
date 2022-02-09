@@ -18,16 +18,16 @@ function Navbar() {
             <div className="leftSide" id={openLinks ? "open" : "close"}>
                 <div className="hiddenLinks">
                     <Link to="/">Home</Link>
-                    <Link to="/">Menu</Link>
-                    <Link to="/">About</Link>
+                    <Link to="/artists">Artists</Link>
                     <Link to="/">Contact</Link>
+                    <Link to="/">FAQ</Link>
                 </div>
             </div>
             <div className="rightSide">
                 <Link to="/">Home</Link>
-                <Link to="/menu">Menu</Link>
-                <Link to="/about">About</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/artists">Artists</Link>
+                <Link to="/">Contact</Link>
+                <Link to="/">FAQ</Link>
                 <button onClick={toggleNavbar}>
                     <MenuIcon />
                 </button>
