@@ -7,12 +7,12 @@ import artist3 from '../assets/Artist4B.jpg';
 
 function Artists() {
     return (
-        <div className="home" style={{ backgroundImage: `url(${mainImage})` }}>
+        <div className="artists-bg" style={{ backgroundImage: `url(${mainImage})` }}>
             <ul className='card-container'>
                 <li>
                     <div className="card">
                         <img src={artist1} alt="Avatar"/>
-                        <h4><b>John Doe</b></h4>
+                        <h4><b>John Sievers</b></h4>
                         <hr style={{width:`85%`}}></hr>
                         <p>Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Nulla ornare mi nibh,
@@ -25,7 +25,7 @@ function Artists() {
                 <li>
                     <div className="card">
                         <img src={artist2} alt="Avatar"/>
-                        <h4><b>John Doe22</b></h4>
+                        <h4><b>Marcus Goss</b></h4>
                         <hr style={{width:`85%`}}></hr>
                         <p>Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Nulla ornare mi nibh,
@@ -38,7 +38,7 @@ function Artists() {
                 <li>
                     <div className="card">
                         <img src={artist3} alt="Avatar"/>
-                        <h4><b>John Doe33</b></h4>
+                        <h4><b>Clark Wiles</b></h4>
                         <hr style={{width:`85%`}}></hr>
                         <p>Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Nulla ornare mi nibh,
