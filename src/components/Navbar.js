@@ -20,14 +20,14 @@ function Navbar() {
                     <Link to="/">Home</Link>
                     <Link to="/artists">Artists</Link>
                     <Link to="/gallery">Gallery</Link>
-                    <Link to="/">Contact</Link>
+                    <Link to="/contact">Contact</Link>
                 </div>
             </div>
             <div className="rightSide">
                 <Link to="/">Home</Link>
                 <Link to="/artists">Artists</Link>
                 <Link to="/gallery">Gallery</Link>
-                <Link to="/">Contact</Link>
+                <Link to="/contact">Contact</Link>
                 <button onClick={toggleNavbar}>
                     <MenuIcon />
                 </button>
