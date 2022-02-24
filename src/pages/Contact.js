@@ -23,6 +23,7 @@ const Contact = () => {
     setStatus("Submit");
     let result = await response.json();
     alert(result.status);
+    console.log('Success:', details);
   };
     return (
         <div className='contact'>
